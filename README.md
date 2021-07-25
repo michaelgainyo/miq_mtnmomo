@@ -1,1 +1,1 @@
-# MTN Mobile Money API wrapper
+# MTN Mobile Money API wrapper (WIP)
