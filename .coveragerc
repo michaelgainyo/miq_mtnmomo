@@ -1,0 +1,6 @@
+[run]
+source = .
+omit = */env/*
+    */mtnenv/*
+    */tests/*
+    fabfile.py
