@@ -2,22 +2,22 @@ from os import path
 from setuptools import setup, find_packages
 
 
-import miqmtn
+import miqmomo
 
 
 here = path.abspath(path.dirname(__file__))
 
 
 setup(
-    name='miqmtn',
-    version='1.0.0',
+    name='miqmomo',
+    version=miqmomo.__version__,
     description='MTN Mobile Money API wrapper',
     long_description='',
     # url='',
-    author='marqetintl',
-    author_email='michaelgainyo@gmail.com',
+    author=miqmomo.__author__,
+    author_email=miqmomo.__email__,
     keywords='mtn momo',
-    license='MIT',
+    # license='MIT',
     packages=find_packages(),
     install_requires=['requests'],
     python_requires=">=3.5",

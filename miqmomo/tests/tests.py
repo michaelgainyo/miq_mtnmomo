@@ -1,11 +1,11 @@
 from uuid import uuid4
 
-from miqmtn.session import create_session
-from miqmtn.sandbox_user import (
+from miqmomo.session import create_session
+from miqmomo.sandbox_user import (
     create_sb_apiuser_apikey, get_sb_apiuser,
     create_sb_apiuser
 )
-from miqmtn.collections import (
+from miqmomo.collections import (
     request_to_pay_collection, get_collection_token
 )
 

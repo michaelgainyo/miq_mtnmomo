@@ -41,6 +41,8 @@ def create_sb_apiuser(session: Session, apiuser_id: str = f'{uuid4()}', callback
     base_url += 'v1_0/apiuser'
     data = {"providerCallbackHost": callback_host}
 
+    print(apiuser_id)
+
     session.headers.update({'X-Reference-Id': f'{apiuser_id}', })
 
     res = session.post(base_url, json=data)

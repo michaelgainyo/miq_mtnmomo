@@ -23,7 +23,7 @@ REF that worked
 
 def request_to_pay_collection(
         apiuser_id: str, collection_token: str,
-        data: dict,  session: requests.Session,
+        data: dict, session: requests.Session,
         transaction_id=f'{uuid4()}',
         callback_url='', env='sandbox',
         base_url=SANDBOX_BASEURL):
